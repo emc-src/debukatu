@@ -1,0 +1,35 @@
+// /* ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+//     全プレイ履歴エリア
+//  ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■  */
+
+.p-history {
+  width: 100%;
+  margin-top: $mg-24;
+  padding: $space_3l $space_xl;
+  &__title {
+    padding-bottom: $space_m;
+    font-size: $font-size-xl;
+    font-weight: bold;
+    text-align: center;
+    @include mq(sm) {
+      font-size: $font-size-m;
+    }
+  }
+  &__history {
+    // width: 80%;
+    line-height: 130%;
+    // margin: 0 auto $mg-24 auto;
+    height: 170px;
+    padding: $space_l $space_xl;
+    font-size: $font-size-l;
+    border: solid 1px rgb(189, 138, 71);
+    overflow-y: scroll;
+    @include mq(sm) {
+      font-size: $font-size-s;
+    }
+  }
+  @include mq(sm) {
+    padding-top: $space_m;
+    padding-bottom: $space_m;
+  }
+}

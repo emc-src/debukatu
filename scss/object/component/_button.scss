@@ -1,0 +1,51 @@
+// ボタン-large
+.c-btn {
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgb(58, 57, 57);
+  &:hover {
+    font-weight: normal;
+    box-shadow: none;
+  }
+  &-lg {
+    height: 70px;
+    padding: $space_xl $space_3l;
+    font-size: $font-size_l;
+  }
+  &-md {
+    height: 60px;
+    padding: $space_l $space_xl;
+    font-size: $font-size_m;
+  }
+}
+
+// ボタン-large-yellow
+.c-btn-lg--y {
+  background: #f2f399;
+  &:hover {
+    background: #f2f399;
+  }
+}
+
+// ボタン-circle
+.ｃ−btn-circle {
+  width: 98%;
+  height: 98%;
+  font-size: 1.2em;
+  border-radius: 50%;
+  white-space: normal;
+  box-shadow: 4px 4px 12px -4px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 4px 4px 12px -4px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 4px 4px 12px -4px rgba(0, 0, 0, 0.6);
+}
+.btn-play:hover {
+  background: #fae59f;
+  box-shadow: none;
+}
+.ｃ−btn-circle--yg {
+  background: #e6fab8;
+  &:hover {
+    background: #fae59f;
+    box-shadow: none;
+  }
+}

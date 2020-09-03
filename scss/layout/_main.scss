@@ -1,0 +1,9 @@
+.l-main {
+  width: 95%;
+  padding: $space_xl 0;
+  margin: 0 auto;
+  border: solid 2px $flame-color-outer;
+  @include mq(sm) {
+    padding-top: 0;
+  }
+}

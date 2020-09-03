@@ -1,0 +1,7 @@
+// レスポンシブ
+@mixin mq($breakpoint) {
+  // "$breakpoint": "screen and (max-width: XXXpx)"
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}

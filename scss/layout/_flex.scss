@@ -1,0 +1,70 @@
+.l-flex {
+  display: flex;
+}
+
+/* 水平・垂直方向 */
+.l-flex-xyc {
+  justify-content: center;
+  align-items: center;
+}
+/* justify-content 水平方向 */
+.l-flex-x {
+  &c {
+    justify-content: center;
+  }
+  &l {
+    justify-content: flex-start;
+  }
+  &r {
+    justify-content: flex-end;
+  }
+  &bw {
+    justify-content: space-between;
+  }
+  &ar {
+    justify-content: space-around;
+  }
+}
+
+/* align-item 垂直方向 */
+.l-flex-y {
+  &c {
+    align-items: center;
+  }
+  &tp {
+    align-items: flex-start;
+  }
+  &bm {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+// flex-wrap 折返し
+.l-flex-wp {
+  &-no {
+    flex-wrap: nowrap;
+  }
+  &wp {
+    flex-wrap: wrap;
+  }
+
+  &rv {
+    flex-wrap: wrap-reverse;
+  }
+  &cl {
+    flex-direction: column;
+  }
+}
+
+// flex-flow 横並びと折返し
+.l-flex-flow {
+  flex-flow: row wrap;
+}
+
+// lex-direction 上下並び
+.l-flex-dr {
+  &cl {
+    flex-direction: column;
+  }
+}

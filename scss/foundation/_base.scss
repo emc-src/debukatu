@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $font-color_default;
+  font-size: $font-size_default;
+  line-height: 150%;
+  font-family: $font-family_all;
+  text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+input[type="submit"] {
+  font-weight: bold;
+  border: none;
+  -webkit-appearance: none;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+img {
+  object-fit: cover;
+}

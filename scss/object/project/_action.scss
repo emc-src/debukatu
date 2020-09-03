@@ -1,0 +1,19 @@
+.p-action-area {
+  width: 100%;
+  height: 600px;
+  padding: $space_3l $space_xl;
+  margin: auto;
+  text-align: center;
+  @include mq(sm) {
+    flex-direction: column;
+    height: 450px;
+    padding-top: $space_xl;
+    padding-bottom: $space_s;
+  }
+  // @include mq(ss) {
+  //   width: 310px;
+  //   margin: auto;
+  //   padding-top: $space_l;
+  //   padding-bottom: $space_l;
+  // }
+}

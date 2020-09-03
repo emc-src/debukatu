@@ -1,0 +1,53 @@
+/* ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+    トップページ
+ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■  */
+
+.p-index {
+  width: 80%;
+  padding: $space_5l 0;
+  border: solid 2px $flame-color-outer;
+  &__title {
+    width: 80%;
+    height: 130px;
+    @include mq(sm) {
+      width: 100%;
+      height: 100%;
+    }
+    &-img {
+      width: 90%;
+      height: 90%;
+    }
+  }
+  &__body {
+    line-height: 220%;
+    margin-top: $mg-48;
+    font-size: $font-size-xl;
+    @include mq(sm) {
+      font-size: $font-size-l;
+    }
+  }
+  &__footer {
+    margin-top: $mg-48;
+    padding-bottom: $space_3l;
+    &-btn-wrap {
+      width: 270px;
+    }
+  }
+  &__img-fork {
+    width: 80px;
+    height: 80px;
+    @include mq(sm) {
+      display: none;
+    }
+  }
+  &__img-fork--left {
+    margin-right: 60px;
+  }
+  &__img-fork--right {
+    margin-left: 60px;
+  }
+  @include mq(sm) {
+    width: 100%;
+    border: none;
+  }
+}

@@ -1,0 +1,19 @@
+.l-site-wrap {
+  width: $site-width;
+  padding-top: $space_3l;
+  padding-bottom: $space_3l;
+  margin: auto;
+
+  // @include mq(md) {
+  //   width: 750px;
+  //   margin: auto;
+  //   padding-top: $space_l;
+  //   padding-bottom: $space_l;
+  // }
+  @include mq(sm) {
+    width: 370px;
+    margin: auto;
+    padding-top: $space_l;
+    padding-bottom: $space_l;
+  }
+}

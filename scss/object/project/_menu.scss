@@ -1,0 +1,78 @@
+.p-menu-wrap {
+  width: 62%;
+  height: 100%;
+  // float: left;
+  &__img-wrap {
+    width: 90%;
+    height: 68%;
+    margin: auto;
+    position: relative;
+    &-img {
+      width: 100%;
+      height: 100%;
+    }
+    /* 画像上のテキスト */
+    p {
+      width: 100%;
+      line-height: 160%;
+      font-size: 2.8em;
+      font-weight: bold;
+      color: white;
+      background: rgba(69, 71, 71, 0.4);
+      position: absolute;
+      bottom: 25%;
+      @include mq(sm) {
+        font-size: 1.6em;
+      }
+    }
+    @include mq(sm) {
+      width: 100%;
+      height: 58%;
+    }
+  }
+  &__menu-info {
+    width: 90%;
+    height: 26%;
+    padding: $space_l $space_xl;
+    margin: $mg-24 auto $mg-8 auto;
+    border: solid 1px $flame-color-inner;
+    overflow-y: scroll;
+    &-food-name {
+      line-height: 150%;
+      font-size: 1.8em;
+      font-weight: bold;
+      padding: 10px 0;
+      @include mq(sm) {
+        font-size: 1.1em;
+      }
+    }
+    &-food-info {
+      padding: 8px;
+      font-size: 1.4em;
+      font-weight: bold;
+      @include mq(sm) {
+        font-size: 1.1em;
+      }
+    }
+    &-game-info {
+      line-height: 150%;
+      font-size: 1.3em;
+      font-weight: bold;
+      position: relative;
+      bottom: 0;
+      @include mq(sm) {
+        font-size: 1.1em;
+      }
+    }
+    @include mq(sm) {
+      width: 100%;
+      height: 36%;
+      margin: 0;
+      font-size: initial;
+    }
+  }
+  @include mq(sm) {
+    width: 100%;
+    height: 80%;
+  }
+}

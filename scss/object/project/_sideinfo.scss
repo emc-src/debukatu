@@ -1,0 +1,75 @@
+/* ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+    プレイページ - サイドインフォ
+ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■  */
+
+.p-side-info {
+  width: 37%;
+  height: 100%;
+  &__board {
+    width: 125%;
+    height: 450px;
+    background-image: url(../images/board.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    text-align: left;
+    position: relative;
+    top: -46px;
+    left: -80px;
+    z-index: 2;
+    text-align: center;
+    p {
+      color: white;
+      font-weight: bold;
+      width: 42%;
+      margin-left: 80px;
+    }
+    &-menu-name {
+      font-size: $font-size-xl;
+      position: relative;
+      top: 100px;
+      left: 62px;
+    }
+    &-menu-price,
+    &-menu-kcal {
+      padding: $space-s;
+      font-size: $font-size-l;
+      position: relative;
+      top: 112px;
+      left: 56px;
+    }
+    &-topping-title {
+      font-size: $font-size-l;
+      position: relative;
+      top: 128px;
+      left: 54px;
+    }
+    &-topping-name {
+      font-size: $font-size-l;
+      position: relative;
+      top: 136px;
+      left: 52px;
+    }
+    @include mq(sm) {
+      display: none;
+    }
+  }
+  &__player-info {
+    margin-left: $mg-16;
+    line-height: 170%;
+    border-radius: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    bottom: 26px;
+    @include mq(sm) {
+      position: static;
+    }
+  }
+  @include mq(sm) {
+    width: 100%;
+    height: 18%;
+    padding-left: $space_l;
+    font-size: 0.7em;
+  }
+}

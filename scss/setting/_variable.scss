@@ -1,0 +1,43 @@
+// ==============================
+// 変数
+// ==============================
+$font-color_default: #444;
+
+$flame-color-outer: #eed460;
+$flame-color-inner: #bd8a47;
+
+$site-width: 980px;
+
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 38px;
+
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_3l: 30px;
+$space_4l: 40px;
+$space_5l: 50px;
+
+$mg-8: 8px;
+$mg-16: 16px;
+$mg-24: 24px;
+$mg-32: 32px;
+$mg-40: 40px;
+$mg-48: 48px;
+
+$font-family_all: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3",
+  "ヒラギノ角ゴ ProN", "Meiryo UI", Arial, "ＭＳ Ｐゴシック", sans-serif;
+
+// マップ型変数
+$breakpoints: (
+  "sm": "screen and (max-width: 414px)",
+  "md": "screen and (max-width: 768px)",
+  "lg": "screen and (max-width: 1000px)",
+  "xl": "screen and (max-width: 1200px)",
+) !default;
